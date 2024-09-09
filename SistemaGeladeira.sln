@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55CD1DD0-17D0-42AB-91B4-15634E63FD12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGeladeira.Domain", "src\SistemaGeladeira.Domain\SistemaGeladeira.Domain.csproj", "{BCFDE271-629E-4244-A0A0-899FDFF05164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGeladeira.Console", "src\SistemaGeladeira.Console\SistemaGeladeira.Console.csproj", "{696D7B85-BBA8-449B-8FCD-C32CC21D7661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCFDE271-629E-4244-A0A0-899FDFF05164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFDE271-629E-4244-A0A0-899FDFF05164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFDE271-629E-4244-A0A0-899FDFF05164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFDE271-629E-4244-A0A0-899FDFF05164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696D7B85-BBA8-449B-8FCD-C32CC21D7661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696D7B85-BBA8-449B-8FCD-C32CC21D7661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696D7B85-BBA8-449B-8FCD-C32CC21D7661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696D7B85-BBA8-449B-8FCD-C32CC21D7661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCFDE271-629E-4244-A0A0-899FDFF05164} = {55CD1DD0-17D0-42AB-91B4-15634E63FD12}
+		{696D7B85-BBA8-449B-8FCD-C32CC21D7661} = {55CD1DD0-17D0-42AB-91B4-15634E63FD12}
+	EndGlobalSection
+EndGlobal
